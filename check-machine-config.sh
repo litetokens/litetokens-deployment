@@ -1,6 +1,6 @@
 #!/bin/bash
 
-wget https://raw.githubusercontent.com/tronprotocol/TronDeployment/master/Benchmark.jar -O Benchmark.jar
+wget https://raw.githubusercontent.com/litetokens/Litetokens-Deployment/master/Benchmark.jar -O Benchmark.jar
 java -jar Benchmark.jar
 
 if [ $? == 1 ]; then
